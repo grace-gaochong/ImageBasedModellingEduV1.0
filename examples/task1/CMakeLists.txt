@@ -4,6 +4,9 @@ set(CMAKE_CXX_FLAGS "-fPIC")
 
 include_directories("../..")
 
+include_directories("../../..")
+
+
 set(VISUAL_HEADER visualizer.h)  #${VISUAL_HEADER}
 set(VISUAL_SOURCE visualizer.cc)
 
